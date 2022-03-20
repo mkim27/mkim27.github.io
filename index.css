@@ -1,0 +1,14 @@
+    body {
+      margin: 15px;
+    }
+    
+    /* header {
+      background-color: white;
+    } */
+    header h1, h2, nav {
+      font-family: Arial;
+    }
+    
+    img {
+      width: 30%;
+    }
