@@ -34,13 +34,16 @@ nav a {
 }
 nav a:hover {
   background-color: black;
-  color: #00cc00;
+  color: #039660;
+  text-shadow: 0 0 5px #039660;
+}
+.active {
+  font-style: oblique;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   font-family: Verdana, Arial, sans-serif;
-  background-color: #fbfaf5;
 }
 
 main {
@@ -54,9 +57,12 @@ main {
 }
 
 section {
-  padding: 1%;
-  margin: 1%;
-  border-radius: 5px;
+  padding: 3%;
+  border-radius: 1px;
+  background-color: #dddddd;
+  width: 70vw;
+  filter: drop-shadow(0 0px 3px #bbbbbb);
+
 }
 section h2 {
   font-size: 21px;
